@@ -1,0 +1,49 @@
+# this is only for search engines, it does not appear in the home
+# as long as the json variables name and description are provided
+title: Nguyễn Văn Vận
+description: Van Van's curriculum vitae online
+baseurl: ""
+url: https://vanvan.github.io
+
+# this information is shown on the homepage, all fields are optional and
+# can be declared either as a single string or as a string array/hash
+json:
+  name: Van Van Nguyen
+  description:
+    - Hello!
+    - I am a hard-working
+    - and responsible person
+    - who is always hunger for knowledge
+    - and tries to be better every day.
+    - A good single player 
+    - as well as team-player.
+  cv: assets/cv.pdf
+  address:
+    - Le Trong Tan
+    - An Khanh, Hoai Duc
+    - Hanoi, Viet Nam
+  contact:
+    phone: +84 972 389 367
+    email: vegetaz@outlook.com
+    blog: https://vegetaz.github.io
+  profiles:
+    facebook: https://www.facebook.com/vanfsn
+    linkedin: https://www.linkedin.com/in/vanz25
+    stackoverflow: https://stackoverflow.com/users/7106855/vegetaz
+    github: https://github.com/vegetaz
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
